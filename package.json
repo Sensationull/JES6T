@@ -13,7 +13,7 @@
     "url": "git+https://github.com/andrewjohnso7/JES6T.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Andrew Johnson",
   "devDependencies": {
     "babel-core": "^6.23.1",
     "babel-loader": "^6.3.2",
