@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 const Hello = () => (
-  <div>WHAT UP</div>
+  <div>AY</div>
 );
 
 ReactDOM.render(<Hello/>, document.getElementById('app'));
