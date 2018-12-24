@@ -54,6 +54,19 @@ const higherOrderFuncs = (array) => {
 const cleanerHigherOrderFuncs = array => array.map(item => item + 100);
 // ˆso clean, sleek, and sexy. Amirite???ˆ
 
+// const Hello = (name, statement) => {
+//   this.name = name;
+//   this.statement = statement;
+// };
+
+// Hello.prototype.saySomething = () => {
+//   setTimeout(() => {
+//     console.log(this.name + ' says ' + this.statement);
+//   }, 1000);
+// };
+
+// var hola = new Hello('Javier', 'Hola, como estas?');
+//ˆThis portion of the module is not yet ready
 module.exports = {
   eSFive,
   eSSix,
