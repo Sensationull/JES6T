@@ -21,3 +21,7 @@ test('should be able to assign values to given variables', () => {
 test('should be able to pass destructured values from objects into functions', () => {
   expect(destruct.destructObj(destruct.composer)).toBe('Pytor Ilyich Tchaikovsky composed the Waltz Of The Flowers');
 });
+
+test('should be able to destruct arrays', () => {
+  expect(destruct.destructArr(destruct.original)).toBe('These are the items in the array: apple banana orange peach');
+});
