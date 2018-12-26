@@ -26,8 +26,36 @@ const destructObj = ({ first, last, bestSong }) => {
   return first + ' ' + last + ' composed the ' + bestSong;
 };
 
+/*
+Now lets do some array destructuring
+*/
+
+/*
+The way that Array destructuring works is by assigning a variable to the array in the order in which it was given. 
+
+So it used to look something like:
+
+var original = ['apple', 'banana', 'orange', 'peach'];
+
+var apple = original[0];
+var banana = original[1];
+var orange = original[2];
+var peach = original[3];
+*/
+
+// Now it looks something more like this.
+
+let original = ['apple', 'banana', 'orange', 'peach'];
+
+let [apple, banana, orange, peach] = original;
+
+const destructArr = ([apple, banana, orange, peach]) => 'These are the items in the array: ' + apple + ' ' + banana + ' ' + orange + ' ' + peach; 
+
+console.log(destructArr(original));
 module.exports = {
   composer,
   returnProperty,
-  destructObj
+  destructObj,
+  destructArr,
+  original
 };
