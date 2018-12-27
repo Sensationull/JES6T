@@ -20,7 +20,7 @@ What we used to do:
 
 // console.log(addUpSalaries(20000, 40000, 66000, 200000));
 
-// Now we can just add in the ellipses to the arguments
+// Now we can just add in the ellipses to the arguments, like so:
 
 const addUpSalaries = (...someNumbers) => {
   let total = 0;
@@ -30,8 +30,22 @@ const addUpSalaries = (...someNumbers) => {
   return total;
 };
 
+/* There's also default parameters. 
+These parameters, like their namesake, allow you to place default values inside of your functions, so that the functions will default to using those values.
+*/
 
+const nameTMNTurtles = (blue = 'Leonardo', red = 'Raphael', purple = 'Donatello', orange = 'Michaelangelo') =>{
+  return 'Master Splinter trained: ' + blue + ', ' + red + ', ' + purple + ', and ' + orange;
+};
+
+// console.log(nameTMNTurtles());
+
+/* 
+enter four of your names of your own choosing to see this in action.
+*/
+// console.log(nameTMNTurtles('what', 'in', 'the', 'world'));
 
 module.exports = {
   addUpSalaries,
+  nameTMNTurtles,
 };
