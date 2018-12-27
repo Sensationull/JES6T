@@ -1,8 +1,6 @@
 # JES6T
 
-Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
-
-A repo that tests your ES6 knowledge
+A repo that guides you through ES6 changes
 
 This project was designed to test your knowledge of a variety of ES6 concepts you may or may not be familiar with. Included:
 
@@ -18,5 +16,6 @@ For those people who don't know how these things work. This is a test suite with
 If you were curious how these things work and maybe take a sneak peek at Jest as well, well look here.
 
 How to Get Started
-Fork it, clone it, npm install, run build, start it and then localhost it. 
-it's like 2 minutes.
+npm install it then guide yourself through to the tests portion of repo and go through each non test.js file. When you've finished that module run `npm run test` to see if all the tests are passing
+
+
