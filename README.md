@@ -13,18 +13,10 @@ DEFAULTY THINGS (Default Parameters)
 JQUERY-LOOKING THINGS (Template Literals)
 THOSE OTHER LOOPS (for...of loops)
 
-Problem
-For those people who don't know how these things work.
+For those people who don't know how these things work. This is a test suite with examples and tests to help you get in the swing of using some ES6+ features. It's mostly pretty simple, but I'll be adding more and more tests as time goes on.
 
-Solution
 If you were curious how these things work and maybe take a sneak peek at Jest as well, well look here.
-
-Quote from You
-If you turn off the linter, I'll cut you.
 
 How to Get Started
 Fork it, clone it, npm install, run build, start it and then localhost it. 
 it's like 2 minutes.
-unless you forget the step I left out.
-
-If this breaks your machine, that's on you.
