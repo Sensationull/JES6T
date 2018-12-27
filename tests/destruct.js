@@ -51,7 +51,8 @@ let [apple, banana, orange, peach] = original;
 
 const destructArr = ([apple, banana, orange, peach]) => 'These are the items in the array: ' + apple + ' ' + banana + ' ' + orange + ' ' + peach; 
 
-console.log(destructArr(original));
+// console.log(destructArr(original));
+
 module.exports = {
   composer,
   returnProperty,
