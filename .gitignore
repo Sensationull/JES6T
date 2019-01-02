@@ -62,3 +62,7 @@ typings/
 
 # bundled files
 client/dist/bundle.js
+
+# There is no client/server required for this project
+client
+server
